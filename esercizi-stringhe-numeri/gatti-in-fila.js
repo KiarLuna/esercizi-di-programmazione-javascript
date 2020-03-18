@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 5;
+var inLine = 2;
+var lines = cats/inLine; //2.5
+lines = Math.ceil(lines);
+var catsmissing = lines*inLine-cats;
+console.log(lines);
+console.log(catsmissing);

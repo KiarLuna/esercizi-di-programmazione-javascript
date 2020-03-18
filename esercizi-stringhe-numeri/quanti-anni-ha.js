@@ -11,3 +11,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var yearToday = 2020;
+var yearBorn = 1988;
+var old = yearToday-yearBorn;
+var missingCent = 100 - old;
+console.log(old);
+console.log(missingCent);

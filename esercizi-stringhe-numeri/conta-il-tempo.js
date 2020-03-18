@@ -12,3 +12,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var secTot = 12560;
+var ore = Math.floor(secTot/3600); //3
+console.log(ore);
+var minRes = secTot- (ore * 3600);
+minutes = Math.floor(minRes/60); //29
+console.log(minutes);
+var sec = minRes - (minutes*60);
+console.log(sec); //20
